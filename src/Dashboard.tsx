@@ -1,5 +1,5 @@
 // Dashboard.tsx
-import { useAuth } from "./AuthContext";
+import { useAuth } from "./src/AuthContext";
 
 export default function Dashboard() {
   const { user, logout } = useAuth();
